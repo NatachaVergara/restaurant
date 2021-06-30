@@ -1,0 +1,117 @@
+@import url("estilos-rest.css");
+@import url("estilos-contacto.css");
+
+h2, .navbar-brand, form label,textarea{
+    font-family: 'Nanum Myeongjo', serif;
+    
+}
+p, .nav-link{
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.container{
+    margin-top:60px;
+}
+
+.bienvenidos h2{
+    text-align: center;
+}
+
+.carousel-inner{
+    border-radius: 1%;
+}
+
+
+.bienvenidos{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bienvenidos p{
+    width: 90%;
+    text-align: center;
+    font-family: 'Nanum Myeongjo', serif;
+    
+}
+
+.card-title:hover{
+    cursor: pointer;
+    overflow:none;
+
+  }  
+/*Funcion de JS*/
+  .oculto{
+    display: none;
+}
+
+
+/*hover del nav*/
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  
+    40% {
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+  
+    80% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+  }
+.nav-link:hover{
+    animation: bounce 1s;
+  
+}
+
+
+
+
+
+
+
+
+
+/***********************/
+
+
+
+
+@media screen and (max-width:450px)
+{
+
+    .bienvenidos h2{
+        padding-top: 50px;
+    }
+    .scale img:hover{
+        transform: none;
+        cursor: pointer;
+        overflow:auto;
+    
+      } 
+
+}
+
+@media screen and (min-width:451px)
+{
+    .bienvenidos h2{
+        padding-top: 50px;
+    }
+
+    
+
+}
+@media screen and (min-width:520px) and (max-width:700px)
+{
+    .scale img:hover{
+        transform: none;
+        cursor: pointer;
+        overflow:auto;
+    
+      } 
+
+}
