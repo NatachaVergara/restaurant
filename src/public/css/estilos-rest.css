@@ -101,10 +101,7 @@
   }
 
 
-.cardsSection:nth-of-type(odd){
-  /* background-color: red; */
-  /* background-image: url("../img/korean-food-kim-bap-steamed-rice-with-vegetables-in-seaweed.jpg"); */
-}
+
 
  /*Botones para unir con JS*/
 .info{
@@ -126,7 +123,7 @@
     }
   div .card{
     
-    left: 20px;
+    left: 0px;
   }
 }
  
