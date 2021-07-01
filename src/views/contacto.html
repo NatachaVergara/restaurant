@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('partials/head.html'); -%>
+</head>
+<body>
+    <%- include('partials/nav.html'); -%>
+
+
+
+ <!--Mensaje-->
+ <section class="padre">
+    <div class="hijo mensaje1">
+      <div class="mensaje">
+        <h1>Contactame</h1>
+
+      </div>
+    </div>
+
+
+
+    <!--Formulario-->
+
+
+    <div class="hijo">
+
+      <form action="https://formspree.io/f/mgerwazv" method="post">
+
+        <label for="nombre"> <mark> Nombre:</mark> <br>
+          <input type="text" id="nombre" name="nombre " style="width: 250px;" class="rounded-3 " required></label>
+        <br><br>
+
+        <label for="email"><mark> Email:</mark> <br>
+          <input type="email" class="rounded-3" name="email" id="email" placeholder="xxxxx@gmail.com"
+            style="width: 250px;" required>
+        </label><br><br>
+
+        <label for="mensaje"> <mark> Mensaje: </mark>
+        </label><br><br>
+        <textarea name="mensaje" style="width: 250px;" id="mensaje" cols="30" rows="5" required></textarea><br><br>
+
+
+
+        <button class="btn btn-dark" type="submit">Enviar</button>
+      </form>
+    </div>
+
+
+  </section>
+  <!--Fin Formulario-->
+
+
+
+
+    <%- include('partials/footer.html'); -%>
+</body>
+</html>
